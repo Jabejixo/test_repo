@@ -24,5 +24,10 @@ namespace WinFormsApp1.MVVM.Model
             MasterName = masterName;
         }
 
+        public override string ToString()
+        {
+            return (MasterId.ToString() + MasterName);
+        }
+
     }
 }
